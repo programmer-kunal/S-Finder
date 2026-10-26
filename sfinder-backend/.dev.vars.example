@@ -1,0 +1,6 @@
+# S Finder Backend - Example Local Environment Variables
+# Copy this file to '.dev.vars' for local testing with `npx wrangler dev`.
+# In production, set secrets using: npx wrangler secret put <NAME>
+# NEVER commit .dev.vars or actual API keys to version control.
+
+GEMINI_API_KEY=YOUR_GEMINI_API_KEY_HERE
