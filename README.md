@@ -1,4 +1,4 @@
-# S Finder — Discover Entertainment Smartly
+# S Finder — Discover What To Watch
 
 [![Platform](https://img.shields.io/badge/Platform-Android-green.svg)](https://www.android.com/)
 [![Language](https://img.shields.io/badge/Language-Kotlin%20%7C%20TypeScript-blue.svg)](https://kotlinlang.org/)
