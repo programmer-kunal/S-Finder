@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S Finder Privacy Policy — Discover What To Watch</title>
+    <meta name="description" content="Official Privacy Policy for the S Finder mobile application developed by KAVTORS.">
+    <style>
+        :root {
+            --bg-color: #0B0B0D;
+            --surface-color: #141417;
+            --surface-elevated: #1D1D22;
+            --border-color: #2D2D35;
+            --border-subtle: #222228;
+            --accent-gold: #D4AF65;
+            --accent-gold-light: #E8CB8D;
+            --accent-burgundy: #78303C;
+            --accent-burgundy-dark: #3F151E;
+            --text-primary: #F5F0E8;
+            --text-secondary: #AAA49B;
+            --text-tertiary: #736F68;
+            --badge-bg: rgba(212, 175, 101, 0.12);
+            --callout-bg: rgba(120, 48, 60, 0.15);
+            --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            font-family: var(--font-family);
+            font-size: 16px;
+            line-height: 1.7;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            padding: 0;
+            margin: 0;
+        }
+
+        .header-bar {
+            background: linear-gradient(180deg, rgba(20, 20, 24, 0.95) 0%, rgba(11, 11, 13, 0.95) 100%);
+            border-bottom: 1px solid var(--border-color);
+            padding: 24px 20px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            backdrop-filter: blur(12px);
+        }
+
+        .header-content {
+            max-width: 860px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .brand-badge {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            text-decoration: none;
+        }
+
+        .brand-icon {
+            width: 36px;
+            height: 36px;
+            border-radius: 8px;
+            background: linear-gradient(135deg, var(--accent-gold), var(--accent-burgundy));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 800;
+            color: #0B0B0D;
+            font-size: 19px;
+            box-shadow: 0 4px 12px rgba(212, 175, 101, 0.25);
+        }
+
+        .brand-title {
+            color: var(--text-primary);
+            font-size: 20px;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+        }
+
+        .brand-sub {
+            color: var(--accent-gold-light);
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            display: block;
+        }
+
+        .kavtors-tag {
+            background: var(--surface-elevated);
+            border: 1px solid var(--border-color);
+            color: var(--accent-gold-light);
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+        }
+
+        .container {
+            max-width: 860px;
+            margin: 0 auto;
+            padding: 40px 24px 80px;
+        }
+
+        .hero-section {
+            margin-bottom: 40px;
+            padding-bottom: 30px;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .hero-title {
+            font-size: 36px;
+            font-weight: 800;
+            color: var(--text-primary);
+            letter-spacing: -0.5px;
+            margin-bottom: 12px;
+            line-height: 1.25;
+        }
+
+        .hero-tagline {
+            font-size: 18px;
+            color: var(--accent-gold-light);
+            font-weight: 500;
+            margin-bottom: 20px;
+        }
+
+        .meta-pill-group {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-top: 16px;
+        }
+
+        .meta-pill {
+            background: var(--surface-color);
+            border: 1px solid var(--border-color);
+            padding: 6px 14px;
+            border-radius: 6px;
+            font-size: 13px;
+            color: var(--text-secondary);
+        }
+
+        .meta-pill strong {
+            color: var(--text-primary);
+        }
+
+        .highlight-banner {
+            background: linear-gradient(135deg, rgba(120, 48, 60, 0.22) 0%, rgba(212, 175, 101, 0.08) 100%);
+            border: 1px solid rgba(212, 175, 101, 0.35);
+            border-radius: 12px;
+            padding: 24px;
+            margin: 32px 0;
+            display: flex;
+            gap: 16px;
+            align-items: flex-start;
+        }
+
+        .banner-icon {
+            font-size: 24px;
+            line-height: 1;
+            flex-shrink: 0;
+        }
+
+        .banner-text h3 {
+            color: var(--accent-gold-light);
+            font-size: 17px;
+            font-weight: 700;
+            margin-bottom: 6px;
+        }
+
+        .banner-text p {
+            color: var(--text-secondary);
+            font-size: 14px;
+            line-height: 1.6;
+        }
+
+        h2 {
+            font-size: 22px;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-top: 48px;
+            margin-bottom: 16px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--border-subtle);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        h2::before {
+            content: "✦";
+            color: var(--accent-gold);
+            font-size: 14px;
+        }
+
+        h3 {
+            font-size: 17px;
+            font-weight: 600;
+            color: var(--accent-gold-light);
+            margin-top: 24px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            color: var(--text-secondary);
+            margin-bottom: 16px;
+            font-size: 15px;
+        }
+
+        ul, ol {
+            color: var(--text-secondary);
+            margin-left: 20px;
+            margin-bottom: 20px;
+            font-size: 15px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        li strong {
+            color: var(--text-primary);
+        }
+
+        .card {
+            background-color: var(--surface-color);
+            border: 1px solid var(--border-color);
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+
+        .card-header {
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-bottom: 8px;
+            font-size: 16px;
+        }
+
+        .table-responsive {
+            overflow-x: auto;
+            margin: 24px 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 14px;
+            background: var(--surface-color);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        th {
+            background-color: var(--surface-elevated);
+            color: var(--accent-gold-light);
+            font-weight: 600;
+            text-align: left;
+            padding: 12px 16px;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        td {
+            padding: 12px 16px;
+            border-bottom: 1px solid var(--border-subtle);
+            color: var(--text-secondary);
+        }
+
+        tr:last-child td {
+            border-bottom: none;
+        }
+
+        .contact-box {
+            background: linear-gradient(180deg, var(--surface-color) 0%, var(--surface-elevated) 100%);
+            border: 1px solid var(--accent-gold);
+            border-radius: 12px;
+            padding: 28px;
+            margin-top: 48px;
+            text-align: center;
+        }
+
+        .contact-box h3 {
+            color: var(--accent-gold);
+            font-size: 20px;
+            margin-bottom: 12px;
+        }
+
+        .contact-box p {
+            color: var(--text-secondary);
+            margin-bottom: 20px;
+        }
+
+        .contact-email {
+            display: inline-block;
+            background: var(--badge-bg);
+            border: 1px solid var(--accent-gold);
+            color: var(--accent-gold-light);
+            padding: 12px 24px;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.2s ease;
+        }
+
+        .contact-email:hover {
+            background: var(--accent-gold);
+            color: #0B0B0D;
+            text-decoration: none;
+        }
+
+        footer {
+            border-top: 1px solid var(--border-color);
+            padding: 40px 24px;
+            text-align: center;
+            color: var(--text-tertiary);
+            font-size: 13px;
+        }
+
+        footer a {
+            color: var(--accent-gold-light);
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 640px) {
+            .hero-title {
+                font-size: 28px;
+            }
+            .container {
+                padding: 24px 16px 60px;
+            }
+            .header-bar {
+                padding: 16px;
+            }
+            .highlight-banner {
+                flex-direction: column;
+                gap: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header class="header-bar">
+        <div class="header-content">
+            <div class="brand-badge">
+                <div class="brand-icon">S</div>
+                <div>
+                    <span class="brand-title">S Finder</span>
+                    <span class="brand-sub">Discover What To Watch</span>
+                </div>
+            </div>
+            <div class="kavtors-tag">From KAVTORS</div>
+        </div>
+    </header>
+
+    <main class="container">
+
+        <section class="hero-section">
+            <h1 class="hero-title">Privacy Policy</h1>
+            <p class="hero-tagline">Discover What To Watch — Built with Transparency &amp; Privacy by Design</p>
+            <div class="meta-pill-group">
+                <span class="meta-pill">Developer / Brand: <strong>KAVTORS</strong></span>
+                <span class="meta-pill">Application: <strong>S Finder (Android)</strong></span>
+                <span class="meta-pill">Effective Date: <strong>October 26, 2026</strong></span>
+                <span class="meta-pill">Last Updated: <strong>October 26, 2026</strong></span>
+            </div>
+        </section>
+
+        <div class="highlight-banner">
+            <div class="banner-icon">🛡️</div>
+            <div class="banner-text">
+                <h3>Our Core Privacy Commitment</h3>
+                <p><strong>S Finder does not require user accounts, passwords, or personal profiles.</strong> We do not track your identity, collect your location, sell data to advertisers, or store your search history in a user database. S Finder is built exclusively to help you find films and television shows based on story ideas, genres, and cinematic tropes.</p>
+            </div>
+        </div>
+
+        <section>
+            <h2>1. Introduction</h2>
+            <p>Welcome to <strong>S Finder</strong> ("we", "our", or "us"), an entertainment discovery application developed and operated by <strong>KAVTORS</strong>. S Finder helps users explore, search, and discover movies and TV series using natural language, remembered story details, cinematic tropes, moods, and titles.</p>
+            <p>This Privacy Policy explains how information is handled when you use the S Finder Android application. We are committed to transparency regarding the minimal data processed to deliver entertainment search results and our integration with third-party technologies.</p>
+        </section>
+
+        <section>
+            <h2>2. Information We Do NOT Collect</h2>
+            <p>To provide peace of mind and protect your personal privacy, S Finder is built without user identification mechanisms. We explicitly do <strong>not</strong> collect, store, or process:</p>
+            <ul>
+                <li><strong>No User Accounts:</strong> No sign-up, login, username, or password is ever required.</li>
+                <li><strong>No Personal Identifiers:</strong> We do not ask for or collect names, email addresses, phone numbers, or physical mailing addresses.</li>
+                <li><strong>No Device Hardware Identifiers:</strong> We do not harvest IMEI numbers, MAC addresses, serial numbers, or Android Advertising IDs (AAID).</li>
+                <li><strong>No Location Data:</strong> We do not request, access, or track precise (GPS) or approximate geolocation from your device.</li>
+                <li><strong>No Device Files or Media:</strong> The application does not request permissions to access your camera, microphone, photo gallery, media files, or address book.</li>
+                <li><strong>No Financial or Payment Data:</strong> S Finder is free to use and never processes payment methods, bank information, or billing data.</li>
+                <li><strong>No Advertising or Analytics Trackers:</strong> We do not embed commercial advertising SDKs, behavioral profiling trackers, or third-party analytics frameworks (such as Firebase Analytics or Facebook SDK).</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>3. Information Processed to Provide Discovery</h2>
+            <p>To fulfill entertainment search requests, the application transmits and processes limited technical and search payload data:</p>
+
+            <div class="card">
+                <div class="card-header">A. Search Query Input &amp; Filter Criteria</div>
+                <p>When you perform a search, the text you enter (such as a movie title, a remembered storyline, a plot trope, or a natural language query in English, Hindi, or Hinglish) is transmitted to our backend discovery server. We also transmit user-selected search filters:</p>
+                <ul>
+                    <li>Content type filter (<em>All</em>, <em>Movies</em>, or <em>TV Series</em>).</li>
+                    <li>Optional genre filter (e.g., <em>Sci-Fi</em>, <em>Comedy</em>, <em>Romance</em>).</li>
+                    <li>Optional country filter (e.g., <em>India</em>, <em>United States</em>, <em>South Korea</em>).</li>
+                    <li>Pagination offsets (page number and item limit).</li>
+                    <li>Client protocol version string (e.g., <code>Android-1.0</code>).</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <div class="card-header">B. Ephemeral Network &amp; Rate-Limiting Data</div>
+                <p>When connecting to our server over HTTPS, standard network request headers—including your IP address and user-agent string—are received by our hosting edge network (Cloudflare). Our server maintains a temporary in-memory rate-limiter (allowing up to 15 search requests per minute per IP address) strictly to safeguard the service against denial-of-service abuse and automated scraping. This data resides solely in volatile memory, is refreshed within 60 seconds, and is never recorded into a permanent database.</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>4. Third-Party Services &amp; AI Processing Disclosures</h2>
+            <p>To understand complex natural-language queries and deliver accurate entertainment results, S Finder interacts with specific trusted infrastructure and data partners:</p>
+
+            <div class="table-responsive">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Service / Partner</th>
+                            <th>Role &amp; Purpose</th>
+                            <th>Data Shared</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Google Gemini API</strong><br>(Google LLC)</td>
+                            <td>Natural-language semantic intent analysis and candidate relevance re-ranking.</td>
+                            <td>User query text and filter parameters. No user identity or account data is shared.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Cloudflare Workers &amp; D1</strong><br>(Cloudflare, Inc.)</td>
+                            <td>Serverless edge API routing, request validation, and catalog database hosting.</td>
+                            <td>Standard HTTPS network packet headers (IP address, user-agent) during active requests.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>TVmaze API</strong><br>(TVmaze.com)</td>
+                            <td>Supplemental TV series metadata, broadcast details, and poster image URLs.</td>
+                            <td>Specific show titles or TVmaze identifiers queried by our backend server.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Wikidata</strong><br>(Wikimedia Foundation)</td>
+                            <td>Public movie and series knowledge base (CC0) utilized for catalog ground truth.</td>
+                            <td>Public movie identifiers and entity data during catalog curation.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h3>Artificial Intelligence (AI) Notice &amp; Terms</h3>
+            <p>Natural-language story searches are processed using Google Gemini models (specifically <code>gemini-3.1-flash-lite</code>) under Google AI Studio API terms. Please take note of the following important considerations:</p>
+            <ul>
+                <li><strong>Service Improvement Terms:</strong> Under Google AI Studio free tier / developer terms, query input strings may be processed, logged, and reviewed by Google systems to provide, debug, and improve Google machine learning models.</li>
+                <li><strong>Sensitive Information Warning:</strong> S Finder is designed strictly for movie and television entertainment discovery. <strong>Do not enter personal, financial, confidential, medical, or password information into entertainment search fields.</strong></li>
+                <li><strong>Local Deterministic Fallback:</strong> In the event of network disruption, rate limits, or external AI unavailability, S Finder automatically switches to local SQLite full-text search (FTS5 BM25) without routing your query through the AI service.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>5. Data Storage, Security &amp; Retention</h2>
+            <ul>
+                <li><strong>Zero Query Persistence:</strong> S Finder does not save or log user search queries to any persistent database. Once your search results have been calculated and returned to your device, the query is not retained on our servers.</li>
+                <li><strong>Local Device State:</strong> On your mobile device, the application temporarily holds your active search input and search results in working memory (Jetpack Compose state) while the app is active. If you force-close the app, this working memory is released.</li>
+                <li><strong>Encryption in Transit:</strong> All data exchanged between the Android application, our Cloudflare edge backend, and upstream API providers is encrypted in transit using industry-standard Transport Layer Security (TLS 1.2 / TLS 1.3 / HTTPS).</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>6. Children's Privacy (COPPA &amp; Global Standards)</h2>
+            <p>S Finder is a general-audience entertainment catalog discovery application intended for users aged 13 and older (or the applicable minimum age of digital consent in your jurisdiction). The application does not intentionally market to, collect data from, or solicit personal information from children under the age of 13.</p>
+            <p>Because S Finder does not collect names, emails, addresses, or personal profiles from any user, we do not store personal data belonging to children. If you are a parent or legal guardian and believe your child has submitted personal details in an open search query, please contact us immediately so we can assist.</p>
+        </section>
+
+        <section>
+            <h2>7. User Rights &amp; Regulatory Compliance</h2>
+            <p>Depending on your location, you may have rights under regional privacy legislation, such as the General Data Protection Regulation (GDPR), the California Consumer Privacy Act (CCPA/CPRA), or the Digital Personal Data Protection Act (DPDP Act):</p>
+            <ul>
+                <li><strong>Right to Know &amp; Access:</strong> You have the right to know what information is collected. Because S Finder operates on a zero-identification basis, we hold no personal records linked to your identity.</li>
+                <li><strong>Right to Deletion:</strong> We do not maintain user accounts or query logs; consequently, there is no stored personal data profile to delete.</li>
+                <li><strong>Right to Non-Discrimination:</strong> S Finder treats all users equally and does not restrict features based on privacy preferences.</li>
+                <li><strong>Sale of Personal Data:</strong> We do not sell, rent, monetize, or trade user data or search queries to data brokers or advertising networks.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>8. Changes to This Privacy Policy</h2>
+            <p>We may update this Privacy Policy periodically to reflect enhancements to our discovery engine, shifts in third-party integrations, or evolving legal standards. Any revisions will be published immediately to this webpage, with an updated "Last Updated" date at the top of this document. We encourage you to review this page periodically.</p>
+        </section>
+
+        <section>
+            <h2>9. Contact Information</h2>
+            <p>If you have any questions, suggestions, or concerns regarding this Privacy Policy, our data practices, or our AI processing disclosures, please contact the developer directly:</p>
+
+            <div class="contact-box">
+                <h3>KAVTORS Privacy Office</h3>
+                <p>For inquiries, support, or privacy rights requests, reach out via our designated email:</p>
+                <a href="mailto:kunal.connect7@gmail.com" class="contact-email">kunal.connect7@gmail.com</a>
+                <p style="margin-top: 16px; font-size: 13px; color: var(--text-tertiary);">We endeavor to acknowledge and address all privacy inquiries within 30 calendar days.</p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 KAVTORS. All rights reserved. &bull; S Finder &bull; Discover What To Watch</p>
+        <p style="margin-top: 8px;">Show metadata provided by <a href="https://www.tvmaze.com" target="_blank" rel="noopener">TVmaze</a> (CC BY-SA 4.0) &bull; Movie catalog knowledge derived from <a href="https://www.wikidata.org" target="_blank" rel="noopener">Wikidata</a> (CC0).</p>
+    </footer>
+
+</body>
+</html>
